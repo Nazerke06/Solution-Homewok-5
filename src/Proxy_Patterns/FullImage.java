@@ -7,6 +7,13 @@ public class FullImage implements Image{
         this.file = file;
     }
     private void LoadImage(){
-
+        try {
+            Thread.sleep(2500);;
+        }catch (InterruptedException e){
+            e.printStackTrace();
+        }
+    }
+    public void display(){
+        System.out.println("Full image: " + file);
     }
 }
