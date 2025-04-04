@@ -14,6 +14,9 @@ public class FullImage implements Image{
         }
     }
     public void display(){
-        System.out.println("Full image: " + file);
+        System.out.println("Mini version: " + file);
+    }
+    public void displayFullversion(){
+        System.out.println("Full image version:" + file);
     }
 }
