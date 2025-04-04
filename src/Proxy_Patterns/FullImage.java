@@ -6,4 +6,7 @@ public class FullImage implements Image{
     public FullImage(String file) {
         this.file = file;
     }
+    private void LoadImage(){
+
+    }
 }
