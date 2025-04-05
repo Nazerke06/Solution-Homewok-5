@@ -10,6 +10,7 @@ public class MarkerStyleFlyWeight implements MarkerStyle {
         this.color = color;
         this.labelStyle = labelStyle;
     }
+    
     public void render(String location){
         System.out.println("Rendering at: " + location + "icon: " + iconType + "color: " + color + ", labelstyle: " + labelStyle);
     }
